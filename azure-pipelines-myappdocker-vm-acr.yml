@@ -6,7 +6,7 @@ trigger:
 variables:
   VM_IP_PUBLICA: '20.81.128.58'  # Se debe colocar la IP pública de tu máquina virtual
   IMAGE_NAME: 'monkcontenedorimagen'  # Se debe colocar el Nombre de la imagen que será descargada desde ACR
-  ACR_NAME: 'monkContenedor'  # Se debe colocar el Nombre de tu Azure Container Registry (ACR)
+  ACR_NAME: 'monkcontenedor'  # Se debe colocar el Nombre de tu Azure Container Registry (ACR)
   ACR_USERNAME: 'monkContenedor'  # Se debe colocar el Nombre de usuario del ACR
   ACR_PASSWORD: 'rWJR89yvhO5A+lvKQ3vHr40Y1tkdbJauuFAEfme4+C+ACRAe2mDS'  # Se debe colocar la Contraseña del ACR
 
