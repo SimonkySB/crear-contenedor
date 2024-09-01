@@ -26,6 +26,7 @@ stages:
                     # Verificar e instalar Azure CLI en la máquina virtual
                     if ! command -v az &> /dev/null; then
                       echo "Azure CLI no está instalado. Instalando Azure CLI..."
+                      export DEBIAN_FRONTEND=noninteractive && \
                       sudo apt-get update && \
                       sudo apt-get install -y curl && \
                       curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash && \
